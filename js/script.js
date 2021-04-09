@@ -3,7 +3,7 @@ var arrayN = [];
 
 // ciclo numeri fino a 100
 for(var i = 0; i<=100; i++){
-  var nNumbers = [i];
+  var nNumbers = i;
   //if modulo 3
   if(nNumbers%3 == 0){
     nNumbers ="Fizz";
