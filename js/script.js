@@ -11,8 +11,8 @@ for(var i = 1; i<=100; i++){
   }else if(nNumbers%3 == 0){    
     nNumbers = "Fizz"
   }else if(nNumbers%5 == 0){    
-    nNumbers = "Buzz"
+    nNumbers = "Buzz";
   }
-  arrayN.push(nNumbers)  
+  arrayN.push(nNumbers);
 }
-console.log(arrayN)
+console.log(arrayN);
